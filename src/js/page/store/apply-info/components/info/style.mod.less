@@ -1,0 +1,56 @@
+.resform {
+  width: 828px;
+  margin: 0 auto;
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 30px 100px;
+    position: relative;
+    padding: 60px 0 0 14px;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: 60px;
+      width: 4px;
+      height: 20px;
+      background-color: #108ee9;
+    }
+  }
+
+  :global {
+    .ant-input-group-addon {
+      padding: 0;
+
+      img {
+        display: block;
+      }
+    }
+
+    .ant-form-item {
+      margin-bottom: 30px;
+    }
+
+    .ant-input, .ant-select, .ant-select-selection, .ant-select-selection__rendered {
+      height: 40px;
+      line-height: 40px;
+    }
+
+    textarea.ant-input {
+      height: 80px;
+    }
+  }
+
+  .item-last {
+    margin: 60px auto 0;
+    text-align: center;
+
+    button {
+      width: 300px;
+      height: 40px;
+    }
+  }
+}

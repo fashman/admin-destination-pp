@@ -1,0 +1,51 @@
+.resform {
+  width: 460px;
+  margin: 0 auto;
+
+  :global {
+    .ant-form-item {
+      margin-bottom: 30px;
+
+      &.ant-form-item-with-help {
+        margin-bottom: 12px;
+      }
+
+      &:nth-last-child(2) {
+        margin: 40px 0 0;
+      }
+    }
+
+    .ant-form-item-label, .ant-form-item-control {
+      min-height: 40px;
+      line-height: 40px;
+    }
+
+    .ant-input {
+      height: 40px;
+    }
+
+    .ant-input-group-addon {
+      padding: 0;
+
+      img {
+        display: block;
+        height: 36px;
+        padding-right: 30px;
+        background: #fff url(./images/icon.png) no-repeat 112px center;
+        cursor: pointer;
+      }
+    }
+
+    .has-success.has-feedback:after, .has-error.has-feedback:after, .has-feedback.is-validating:after{
+      height: 40px;
+    }
+  }
+
+  .verification-item {
+    :global {
+      .has-success.has-feedback:after, .has-error.has-feedback:after, .has-feedback.is-validating:after {
+        right: 140px;
+      }
+    }
+  }
+}

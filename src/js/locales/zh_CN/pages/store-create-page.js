@@ -1,0 +1,38 @@
+// 新建店铺
+const storeCreatePage = {
+  documentTitle: '目的地++_新建店铺',
+  merchantname: '店铺名称',
+  merchantnameTips: '请填写店铺名称',
+  type: '店铺类型',
+  restaurant: '餐厅',
+  other: '通用',
+  address: '店铺地址',
+  addressTips: '请填写店铺地址',
+  country: '国家',
+  city: '城市',
+  postcode: '邮编',
+  postcodeTips: '请填写邮编',
+  description: '店铺描述',
+  descriptionTips: '请填写店铺描述',
+  descriptionMsg: '店铺描述请少于500个字',
+  pic: '店铺图片',
+  picTips: '建议尺寸：750 * 364px，最多上传五张',
+  contactor: '联系人',
+  contactorTips: '请填写联系人',
+  mobile: '联系电话',
+  mobileTips: '请填写联系电话',
+  contactEmail: '联系邮箱',
+  contactEmailTips: '请填写联系邮箱',
+  agree: '同意',
+  disagree: '不同意',
+  agreement: '《目的地++平台合作协议》',
+  agreementTips: '同意《目的地++平台合作协议》才可注册',
+  referrername: '推荐人姓名',
+  submit: '提交店铺信息',
+  prev: '上一步',
+  success: '您已成功提交店铺信息',
+  successDesc: '恭喜您完成商家注册，我们将在1-2个工作日内完成资料审核，并以邮件形式通知您结果',
+  wrongDesc: '很抱歉您未能通过目的地++平台的审核，原因是：{res}'
+};
+
+export default storeCreatePage;

@@ -1,0 +1,52 @@
+.list {
+
+  th > span, td p > span {
+    word-break: keep-all;
+  }  
+  
+  .color0, .color3{
+    color: #f12444;
+  }
+
+  .color1{
+    color: #42ca10;
+  }
+
+  .color2{
+    color: #333333;
+  }
+  
+  :global {
+    .ant-pagination {
+      margin-top: 20px;
+    }
+  }
+}
+
+:global {
+  .ant-popover-inner-content {
+    padding: 15px 30px;
+
+    .anticon-exclamation-circle:before {
+      content: '\E63B';
+      font-size: 20px;
+      line-height: 21px;
+    }
+
+    .ant-popover-message {
+      font-size: 14px;
+
+      .ant-popover-message-title {
+        padding-left: 30px;
+      }
+    }
+  }
+  .ant-popover-buttons {
+    text-align: center;
+
+    button {
+      height: 30px;
+      font-size: 14px;
+    }
+  }
+}

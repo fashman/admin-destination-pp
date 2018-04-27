@@ -1,0 +1,85 @@
+.menuitem{
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+
+  &:nth-last-child(2) {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .th {
+    width: 158px;
+    text-align: right;
+    float: left;
+    line-height: 40px;
+  }
+
+  input {
+    width: 150px;
+    margin-right: 5px;
+  }
+
+  .dishitem{
+    overflow: hidden;
+    margin-bottom: 30px;
+
+    .addDish-btn {
+      width: 120px;
+      height: 40px;
+      position: relative;
+      top: -1px;
+    }
+
+    :global {
+      .ant-input-group-wrapper {
+        width: 200px;
+        float: left;
+      }
+
+      .ant-input, .ant-input-number, .ant-select, .ant-select-selection, .ant-select-selection__rendered {
+        height: 40px;
+        line-height: 40px;
+        // width: 300px;
+      }
+
+      .ant-input-number {
+        position: relative;
+        // top: 1px;
+        width: 135px;
+        margin-right: 20px;
+        float: left;
+
+        .ant-input-number-input {
+          width: 132px;
+          height: 38px;
+        }
+      }
+
+      .ant-select {
+        margin-right: 20px;
+        float: left;
+      }
+
+      .ant-select-dropdown-menu-item {
+        height: 40px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  .delDish-btn {
+    color: #108ee9;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.addMenu-btn {
+  width: 154px;
+  height: 40px;
+  margin-left: 60px;
+  font-size: 16px;
+}

@@ -1,0 +1,82 @@
+body {
+  min-width: 1200px;
+
+  .header {
+    font-size: 20px;
+    color: #fff;
+    padding: 0 20px !important;
+  }
+  
+  .app {
+    padding: 90px 0;
+    background: #f7f7f7 url(./images/bg.jpg) no-repeat center;
+    min-height: 1000px;
+  
+    .inbox {
+      width: 1200px;
+      min-height: 820px;
+      background-color: #fff;
+      border-radius: 20px;
+      margin: 0 auto;
+      padding: 60px 0;
+  
+      :global {
+        .ant-steps {
+          margin: 0 auto 100px;
+        }
+
+        .ant-steps-status-finish {
+          .ant-steps-head-inner {
+            background-color: #108ee9;
+  
+            .ant-steps-icon {
+              color: #fff;
+            }
+          }
+  
+          .ant-steps-title {
+            color: #333;
+          }
+        }
+
+        .ant-alert {
+          border: 0;
+          background-color: transparent;
+          text-align: center;
+          padding: 0;
+  
+          .anticon {
+            display: none;
+          }
+  
+          .ant-alert-message {
+            line-height: 40px;
+            margin-bottom: 40px;
+            font-size: 32px;
+  
+            span {
+              display: inline-block;
+              height: 40px;
+              padding-left: 60px;
+              background: url(./images/icon.png) no-repeat left center;
+            }
+          }
+  
+          .ant-alert-description {
+            font-size: 18px;
+            color: #333;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  
+    .breadcrumb {
+      font-size: 14px;
+    }
+  
+    .operator-wrap {
+      padding: 40px 0;
+    }
+  }
+}

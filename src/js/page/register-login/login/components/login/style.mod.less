@@ -1,0 +1,106 @@
+.login-wrap {
+  height: 700px;
+  background: url(./images/banner.jpg) no-repeat center;
+
+  .login-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 160px;
+
+    .left {
+      width: 640px;
+      float: left;
+      padding: 100px 0 0 15px;
+
+      h2 {
+        font-size: 52px;
+        color: #18466b;
+        font-weight: 700;
+        text-align: center;
+        height: 52px;
+        line-height: 52px;
+        margin-bottom: 30px;
+
+        i {
+          display: inline-block;
+          width: 130px;
+          height: 52px;
+          background: url(./images/logo.png) no-repeat center right;
+          position: relative;
+          top: 5px;
+        }
+      }
+
+      .slogen-cn {
+        height: 32px;
+        background: url(./images/slogen-cn.png) no-repeat center;
+        margin-bottom: 50px;
+      }
+
+      .slogen-en {
+        height: 21px;
+        background: url(./images/slogen-en.png) no-repeat center;
+        margin-bottom: 50px;
+      }
+    }
+
+    .resform {
+      padding: 110px 100px;
+      width: 514px;
+      height: 434px;
+      margin-left: 663px;
+      background-color: #fff;
+      border-radius: 20px;
+      position: relative;
+
+      .log-title {
+        width: 129px;
+        height: 129px;
+        background: url(./images/log-bg.png) no-repeat center;
+        text-align: center;
+        line-height: 129px;
+        font-size: 22px;
+        color: #18466b;
+        position: absolute;
+        top: -64px;
+        left: 50%;
+        margin-left: -64px;
+      }
+
+      .registry {
+        text-align: center;
+        color: #848484;
+      }
+    
+      :global {
+        .ant-input-group-addon {
+          padding: 0;
+    
+          img {
+            display: block;
+          }
+        }
+
+        .ant-form-item {
+          float: left;
+          width: 100%;
+
+          .ant-input {
+            height: 40px;
+            line-height: 40px;
+          }
+
+          &:last-child {
+            margin-bottom: 20px;
+          }
+
+          .ant-form-explain {
+            padding-left: 20px;
+            background: url(./images/error.png) no-repeat left center;
+          }
+        }
+      }
+    }
+  }
+}
+

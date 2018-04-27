@@ -1,0 +1,44 @@
+.edit-form {
+  width: 828px;
+  margin: 0 auto;
+
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 30px 100px;
+    position: relative;
+    padding-left: 14px;
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 4px;
+      height: 21px;
+      background-color: #108ee9;
+    }
+  }
+
+  .btn-wrap {
+    text-align: center;
+    margin-top: 60px;
+
+    button {
+      width: 300px;
+      height: 40px;
+      transform: translate(-30px, 0);
+    }
+  }
+
+  :global {
+    textarea.ant-input {
+      height: 80px;
+    }
+
+    .ant-form-item-label, .ant-form-item-control, .ant-select-selection__rendered {
+      line-height: 40px;
+    }
+  }
+}

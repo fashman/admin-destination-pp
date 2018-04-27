@@ -1,0 +1,38 @@
+// 新建店铺
+const storeCreatePage = {
+  documentTitle: 'Destination++_Add store',
+  merchantname: 'Store Name',
+  merchantnameTips: 'Please enter Store Name',
+  type: 'Store Type',
+  restaurant: 'Restaurant',
+  other: 'Other',
+  address: 'Store Address',
+  addressTips: 'Please enter Store Address',
+  country: 'Country',
+  city: 'City',
+  postcode: 'Postcodes',
+  postcodeTips: 'Please enter Postcodes',
+  description: 'Store Description',
+  descriptionTips: 'Please enter Store Description',
+  descriptionMsg: 'Describe your Store and specialty in less than 500 words.',
+  pic: 'Store Image',
+  picTips: 'Image size：750 * 364px, five max',
+  contactor: 'Contact Person',
+  contactorTips: 'Please enter Contact Person',
+  mobile: 'Contact Phone Number',
+  mobileTips: 'Please enter Contact Phone Number',
+  contactEmail: 'Contact Email',
+  contactEmailTips: 'Please enter Contact Email',
+  agree: 'Agree',
+  disagree: 'Disagree',
+  agreement: '《MERCHANT AGREEMENT》',
+  agreementTips: 'You can only register after choosing the MERCHANT AGREEMENT.',
+  referrername: 'Referrer Name',
+  submit: 'Submit',
+  prev: 'Back',
+  success: 'Success',
+  successDesc: 'Congratulations on your completion of merchant  registration. We will complete the data audit within 1-2 working days and inform you of the results in the form of E-mail.',
+  wrongDesc: 'Im sorry you failed to Destination++ audit, the reason is:：{res}'
+};
+
+export default storeCreatePage;

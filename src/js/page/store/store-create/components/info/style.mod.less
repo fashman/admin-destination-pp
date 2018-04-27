@@ -1,0 +1,57 @@
+.form {
+  overflow: hidden;
+  text-align: center;
+
+  .resform {
+    width: 443px;
+    float: left;
+    margin: 0 78px;
+    text-align: left;
+  
+    :global {
+      .ant-form-item {
+        margin-bottom: 30px;
+
+        &.ant-form-item-with-help {
+          margin-bottom: 12px;
+        }
+      }
+
+      .ant-form-item-label, .ant-form-item-control {
+        min-height: 40px;
+        line-height: 40px;
+      }
+
+      .has-error.has-feedback:after, .has-success.has-feedback:after {
+        height: 40px;
+        line-height: 40px;
+      }
+
+      .ant-input {
+        height: 40px;
+      }
+
+      .ant-input-group-addon {
+        padding: 0;
+  
+        img {
+          display: block;
+        }
+      }
+    }
+  }
+
+  .btns {
+    clear: both;
+    padding-top: 100px;
+
+    :global {
+      .ant-btn {
+        width: 300px;
+        margin: 0 20px;
+        height: 40px;
+        font-size: 18px;
+      }
+    }
+  }
+}

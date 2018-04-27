@@ -1,0 +1,123 @@
+.resform {
+  width: 828px;
+  margin: 0 auto;
+  overflow: hidden;
+  
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0 0 30px 0;
+    position: relative;
+    padding: 30px 0 0 14px;
+
+    &.h3 {
+      padding-top: 60px;
+
+      &:before {
+        top: 60px;
+      }
+    }
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      left: 0;
+      top: 30px;
+      width: 4px;
+      height: 20px;
+      background-color: #108ee9;
+    }
+  }
+
+  .left {
+    width: 414px;
+    float: left;
+
+    .tips {
+      position: absolute;
+      top: 0;
+      right: -292px;
+      color: #ccc;
+      font-size: 12px;
+    }
+  }
+
+  .right {
+    width: 414px;
+    float: left;
+
+    .shopusers {
+      border: 1px solid #ccc;
+      height: 100px;
+      overflow-y: scroll;
+      margin-bottom: 10px;
+      padding: 1px;
+
+      p {
+        line-height: 20px;
+        margin-bottom: 1px;
+
+        &.cur {
+          background-color: #108ee9;
+          color: #fff;
+        }
+      }
+    }
+
+    .shopusers-btn {
+      position: absolute;
+      top: 0;
+      right: -80px;
+      width: 70px;
+      padding: 0;
+      font-size: 14px;
+    }
+  }
+
+  :global {
+    .ant-input-group-addon {
+      padding: 0;
+
+      img {
+        display: block;
+      }
+    }
+
+    .ant-form-item {
+      margin-bottom: 30px;
+
+      &.ant-form-item-with-help {
+        margin-bottom: 0;
+
+        .ant-form-explain {
+          line-height: 20px;
+        }
+      }
+    }
+
+    .ant-form-item-label, .ant-form-item-control, .ant-input, .ant-select, .ant-select-selection, .ant-select-selection__rendered {
+      min-height: 40px;
+      line-height: 40px;
+    }
+
+    .has-error.has-feedback:after, .has-success.has-feedback:after {
+      height: 40px;
+      line-height: 40px;
+    }
+
+    textarea.ant-input {
+      height: 80px;
+    }
+  }
+
+  .item-last {
+    margin: 60px auto 0;
+    text-align: center;
+
+    button {
+      width: 300px;
+      height: 40px;
+    }
+  }
+}

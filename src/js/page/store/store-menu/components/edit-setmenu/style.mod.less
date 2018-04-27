@@ -1,0 +1,101 @@
+.tabs {
+  margin: 20px 0 0;
+
+  :global {
+    .ant-btn {
+      > span {
+        padding: 0 5px;
+      }
+    }
+  }
+}
+
+:global {
+  .ant-upload-list-picture-card .ant-upload-list-item-actions .anticon-eye-o {
+    display: none;
+  }
+
+  .ant-upload-list-picture-card .ant-upload-list-item {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.edit-setmenu {
+  :global {
+    .setmenu-currency-select {
+      .has-error.has-feedback:after, .has-success.has-feedback:after {
+        height: 40px;
+        line-height: 40px;
+      }
+
+      .ant-form-item-control-wrapper {
+        width: 135px;
+
+        .ant-input {
+          border-radius: 4px;
+        }
+
+        .ant-input-group-addon {
+          position: absolute;
+          top: 0;
+          right: -155px;
+          width: 135px;
+          background-color: #fff;
+          border-radius: 4px;
+          border: 1px solid #d9d9d9;
+
+          .ant-select {
+            width: 135px!important;
+          }
+        }
+
+        .has-error .ant-input-group-addon, .has-error .ant-input-group-addon {
+          .ant-input-group-addon {
+            border-color: #d9d9d9;
+          }
+        }
+      }
+    }
+
+    .ant-modal-body {
+      padding: 40px 0 1px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 30px;
+
+      .ant-form-item-label {
+        line-height: 40px;
+
+        label {
+          font-size: 14px;
+        }
+      }
+
+      .ant-form-item-control {
+        position: relative;
+        line-height: 40px;
+      }
+
+      .ant-input, .ant-select, .ant-select-selection, .ant-select-selection__rendered {
+        height: 40px;
+        line-height: 40px;
+        // width: 300px;
+      }
+
+      .ant-upload.ant-upload-select-picture-card {
+        width: 130px;
+        height: 130px;
+        border-radius: 0;
+      }
+    }
+  }
+
+  .priority-tips {
+    position: absolute;
+    top: 0;
+    left: 93px;
+    white-space: nowrap;
+  }
+}
